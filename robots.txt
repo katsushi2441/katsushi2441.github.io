@@ -1,0 +1,96 @@
+# katsushi2441.github.io — AI検索クローラーの明示許可
+# 運営: 株式会社エクスブリッジ (EXBRIDGE, Inc.) https://exbridge.jp/
+
+# ── OpenAI ──────────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Anthropic ───────────────────────────────────────────
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: claude-web
+Allow: /
+
+# ── Perplexity ──────────────────────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ── Google ──────────────────────────────────────────────
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# ── Microsoft / Apple ───────────────────────────────────
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# ── その他のAI検索・学習クローラー ──────────────────────
+User-agent: DuckAssistBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: xAI-Bot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: AI2Bot
+Allow: /
+
+User-agent: AI2Bot-Dolma
+Allow: /
+
+User-agent: PetalBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+# ── その他すべて ────────────────────────────────────────
+User-agent: *
+Allow: /
+
+Sitemap: https://katsushi2441.github.io/sitemap.xml
+Sitemap: https://katsushi2441.github.io/vwork/sitemap.xml

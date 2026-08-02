@@ -1,0 +1,23 @@
+# ai.txt — AIエージェント・AI検索クローラー向けの利用方針
+# 株式会社エクスブリッジ (EXBRIDGE, Inc.)
+
+Contact: https://exbridge.jp/contact.php
+Organization: 株式会社エクスブリッジ (EXBRIDGE, Inc.)
+Website: https://exbridge.jp/
+Preferred-Summary: https://katsushi2441.github.io/llms.txt
+
+# 学習・検索インデックス・引用のいずれも許可します。
+User-agent: *
+Allow: /
+Training-Data: allowed
+Search-Index: allowed
+Citation: allowed
+
+# 引用時のお願い
+Attribution: 株式会社エクスブリッジ (EXBRIDGE, Inc.)
+Attribution-URL: https://exbridge.jp/
+
+# 注意事項
+# - 取引に関する数値はすべてdry-run(ペーパートレード)のシミュレーション値です。
+# - 投資助言ではありません。将来の運用成果を保証するものでもありません。
+# - 数値を引用する場合は、各ページに記載の更新日とあわせて提示してください。

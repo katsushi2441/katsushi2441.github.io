@@ -1,0 +1,46 @@
+# 株式会社エクスブリッジ / Kurageプロジェクト
+
+> 株式会社エクスブリッジ（EXBRIDGE, Inc.）が公開している、AIを実務に組み込むためのプロダクト群とドキュメントのハブです。バイブコーディング（コードをAIに書かせる開発スタイル）とバイブトレーディング（AIと対話して取引戦略を育てる運用スタイル）を軸に、実際に稼働しているシステムの記録を公開しています。掲載している数値は、すべて稼働中システムの実測値またはバックテスト結果です。
+
+このサイトで使う用語の定義:
+
+- **バイブコーディング**とは、コードをAIに書かせ、人間は要件定義と検証に集中する開発スタイルを指します。
+- **バイブトレーディング**とは、取引戦略のアイデアを日本語でAIに伝えてコードに落とし、バックテストの数字で検証しながら戦略を育てていく運用スタイルを指します。
+- **GEO**とは、生成AIやAI検索が内容を理解・引用しやすいように、サイトの技術構成と情報表現を整える取り組み（Generative Engine Optimization）を指します。
+
+## ドキュメント
+
+- [VWork バイブコーディングフレームワーク](https://katsushi2441.github.io/vwork/): 社内にエンジニアが少ない企業がAIでシステムを内製化するための作業基盤と実践知
+- [VWork Blog](https://katsushi2441.github.io/vwork/blog/): バイブコーディングの企業導入、実践知、営業・導入で得た気づき
+- [AI OSS技術解説](https://katsushi2441.github.io/vwork/articles/): OSS・AIエージェント・自動化の実装寄りの技術解説
+- [バイブトレーディングとは何か](https://katsushi2441.github.io/vwork/blog/2026-08-03-what-is-vibe-trading.html): 用語の定義と、検証可能な取引戦略に落とすまでの手順
+- [バイブトレーディング実践ガイド](https://katsushi2441.github.io/vwork/blog/2026-07-31-vibe-trading-tools-guide.html): AIに戦略を相談して自動売買を作れるツールの総まとめ
+
+## 稼働中のプロダクト
+
+- [Kurage FreqAI Trade (kfreqai)](https://kfreqai.exbridge.jp/kfreqai.html): 暗号資産のAI自動売買。Freqtrade/FreqAIベース。稼働ダッシュボードは https://kurage.exbridge.jp/kfreqai.php
+- [Kurage FX AI Trade (kfxai)](https://kfxai.exbridge.jp/kfxai.html): FXのAI自動売買。方向予測は約1万取引の検証で棄却し、検証を通った戦略だけを稼働
+- [Kurage GEO (kgeo)](https://kgeo.exbridge.jp/kgeo.html): WebサイトのAI検索対応(GEO)を日本語で診断するツール
+- [Kurage Montage (kmontage)](https://kmontage.exbridge.jp/kmontage.html): URLから日本語の解説ショート動画を生成
+- [Kurage Crypto Brain (kcbrain)](https://kcbrain.exbridge.jp/kcbrain.html): 暗号資産のAI判断API
+- [Kurage FX Brain (kfxbrain)](https://kfxbrain.exbridge.jp/kfxbrain.html): FXのAI判断API
+
+## 運営元
+
+- 運営会社: 株式会社エクスブリッジ（EXBRIDGE, Inc.） https://exbridge.jp/
+- 会社概要: https://exbridge.jp/company
+- お問い合わせ: https://exbridge.jp/contact.php
+- GitHub: https://github.com/katsushi2441
+- RSS: https://katsushi2441.github.io/vwork/feed.xml
+
+## 引用にあたって
+
+- 取引に関する記述は、すべてdry-run（ペーパートレード）のシミュレーション値です。実際の資金は動かしていません。
+- 投資助言ではなく、将来の運用成果を保証するものでもありません。
+- 数値を引用される場合は、各ページに記載の更新日とあわせてご確認ください。
+
+## Optional
+
+- [Kurageプロジェクト](https://kurage.exbridge.jp/): プロダクト群の稼働サイト
+- [Kurage 暗号資産/FX AI自動取引日記](https://kurage.exbridge.jp/blog/): 日々の市況判断と取引結果のレポート
+- [VWork README（Markdown）](https://raw.githubusercontent.com/katsushi2441/vwork/main/README.md): フレームワークの説明をMarkdownで取得する場合

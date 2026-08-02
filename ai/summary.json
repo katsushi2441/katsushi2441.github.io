@@ -1,0 +1,39 @@
+{
+  "name": "株式会社エクスブリッジ / Kurageプロジェクト",
+  "alternateName": "EXBRIDGE, Inc.",
+  "description": "AIを実務に組み込むためのプロダクト群とドキュメントのハブ。バイブコーディング（コードをAIに書かせる開発スタイル）とバイブトレーディング（AIと対話して取引戦略を育てる運用スタイル）を軸に、実際に稼働しているシステムの記録を公開しています。",
+  "url": "https://katsushi2441.github.io/",
+  "inLanguage": "ja",
+  "organization": {
+    "name": "株式会社エクスブリッジ",
+    "url": "https://exbridge.jp/",
+    "about": "https://exbridge.jp/company",
+    "contact": "https://exbridge.jp/contact.php"
+  },
+  "topics": [
+    "バイブコーディング",
+    "バイブトレーディング",
+    "AI自動売買",
+    "GEO",
+    "AEO",
+    "AIエージェント",
+    "OSS"
+  ],
+  "keyPages": [
+    {
+      "title": "VWork バイブコーディングフレームワーク",
+      "url": "https://katsushi2441.github.io/vwork/"
+    },
+    {
+      "title": "VWork Blog",
+      "url": "https://katsushi2441.github.io/vwork/blog/"
+    },
+    {
+      "title": "AI OSS技術解説",
+      "url": "https://katsushi2441.github.io/vwork/articles/"
+    }
+  ],
+  "llmsTxt": "https://katsushi2441.github.io/llms.txt",
+  "disclaimer": "取引に関する数値はすべてdry-run(ペーパートレード)のシミュレーション値であり、投資助言ではありません。",
+  "dateModified": "2026-08-03"
+}

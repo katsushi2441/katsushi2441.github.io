@@ -1,0 +1,42 @@
+{
+  "name": "Kurageプロジェクト（株式会社エクスブリッジ）",
+  "description": "AIを実務に組み込むためのプロダクト群。AI自動売買、AI判断API、GEO診断、動画生成などを提供しています。",
+  "url": "https://kurage.exbridge.jp/",
+  "provider": {
+    "name": "株式会社エクスブリッジ",
+    "url": "https://exbridge.jp/"
+  },
+  "capabilities": [
+    {
+      "name": "暗号資産のAI自動売買 (kfreqai)",
+      "url": "https://kfreqai.exbridge.jp/kfreqai.html",
+      "pricing": "OSS / ダッシュボード閲覧は無料"
+    },
+    {
+      "name": "FXのAI自動売買 (kfxai)",
+      "url": "https://kfxai.exbridge.jp/kfxai.html",
+      "pricing": "OSS / ダッシュボード閲覧は無料"
+    },
+    {
+      "name": "AI検索対応(GEO)診断 (kgeo)",
+      "url": "https://kgeo.exbridge.jp/kgeo.html",
+      "pricing": "初回無料、2回目以降は1診断200円または20,000 URLAI"
+    },
+    {
+      "name": "URLから解説ショート動画を生成 (kmontage)",
+      "url": "https://kmontage.exbridge.jp/kmontage.html",
+      "pricing": "初回無料、2回目以降は1本500円または50,000 URLAI"
+    },
+    {
+      "name": "暗号資産のAI判断API (kcbrain)",
+      "url": "https://kcbrain.exbridge.jp/kcbrain.html",
+      "pricing": "x402従量課金"
+    },
+    {
+      "name": "FXのAI判断API (kfxbrain)",
+      "url": "https://kfxbrain.exbridge.jp/kfxbrain.html",
+      "pricing": "x402従量課金"
+    }
+  ],
+  "dateModified": "2026-08-03"
+}
