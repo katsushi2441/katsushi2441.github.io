@@ -38,6 +38,14 @@ Allow: /
 User-agent: Google-CloudVertexBot
 Allow: /
 
+# Googleの検索クローラー本体。他を全部名指しで許可しているのに Googlebot だけ
+# 名前が無く、Google-Extended(AI学習用)しか書かれていなかった。意図が伝わらないので明記する。
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
 # ── Microsoft / Apple ───────────────────────────────────
 User-agent: Bingbot
 Allow: /
