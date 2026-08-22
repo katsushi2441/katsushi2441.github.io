@@ -100,5 +100,5 @@ Allow: /
 User-agent: *
 Allow: /
 
+# sitemap.xml はインデックス（/sitemap-root.xml と /vwork/sitemap.xml を束ねる）
 Sitemap: https://katsushi2441.github.io/sitemap.xml
-Sitemap: https://katsushi2441.github.io/vwork/sitemap.xml
