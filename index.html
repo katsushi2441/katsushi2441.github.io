@@ -94,6 +94,15 @@ li { margin-bottom:7px; }
 footer { padding:0 22px 40px; color:var(--muted); font-size:13px; }
 @media (max-width:640px) { h1 { font-size:23px; } section { padding:20px; } }
 </style>
+<!-- GA4。Search Console の所有権確認(Googleアナリティクス方式)は
+     プロパティのインデックスページにタグがあることを見るため、ルートにも必要。
+     /vwork/ 配下には入っていたがルートに無く、確認が通らなかった。 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BP0650KDFR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date()); gtag('config', 'G-BP0650KDFR');
+</script>
 </head>
 <body>
 <header><div class="wrap">株式会社エクスブリッジ / Kurageプロジェクト</div></header>
