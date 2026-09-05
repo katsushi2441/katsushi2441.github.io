@@ -102,3 +102,8 @@ Allow: /
 
 # sitemap.xml はインデックス（/sitemap-root.xml と /vwork/sitemap.xml を束ねる）
 Sitemap: https://katsushi2441.github.io/sitemap.xml
+
+# GitHub Pages 上のサイトマップは Google が取得しない（2026-09 実測: 送信しても
+# 「取得できませんでした」のまま）。毎日取得されている exbridge.jp 側から
+# 同じURL一覧を配信する。ここに書くことで当該ホストの所有を示す。
+Sitemap: https://exbridge.jp/vwork-blog-sitemap.xml
